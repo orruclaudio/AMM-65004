@@ -5,10 +5,16 @@ body{
    // background-color: yellow;
 }
 #logo{background-color: #1c345a;}
+
 #header, #footer{color: white;}
+
 .current_page_item{font-weight: bold;}
+
 div#content>h2{color: #9e1616;}
+
 h1, h2, h3, h4, h5, h6{color: #1c345a;}
+
 a:link, a:visited {color: #9e1616;}
 a:hover{text-decoration: underline; font-weight: bold;}
+
 a[href="studente_esami.html"]{color: #1c345a}
