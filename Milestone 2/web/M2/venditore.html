@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Aggiungi a BonsaiWorld</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <meta charset="UTF-8">
+        <meta name="author" content="Claudio Orrù">
+        <meta name="description" content="Aggiungi oggetti al sito BonsaiWorld">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="descrizione.html">Home</a></li>
+                <li> <a href="login.html">Effettua il Login</a></li>
+            </ul>
+         </nav>
+         <form method="get" id="formVend">
+            <div>
+            <label for="nome">None Oggetto</label>
+            <input type="text" name="nome"
+                   id="nome"/>
+            </div>
+            <div>
+            <label for="url">Immagine Oggetto</label>
+            <input type="url" name="urlimg"
+                   id="url"/>
+            <br>
+            <label for="descr" id="labelDescr">Descrizione Oggetto</label>
+            <textarea rows="3" cols="30"
+               name="descrizione" id="descr">
+            </textarea>
+            </div>
+            <br>
+            <div>
+            <label for="prezzo">Prezzo Oggetto</label>
+            <input type="number" name="prezzoitem"
+                   id="prezzo"/>
+            <label for="quant">Quantità da Vendere</label>
+            <input type="number" name="nOgg"
+                   id="quant"/>
+            </div>
+            <button type="submit">Invia</button>
+        </form>
+    </body>
+</html>
