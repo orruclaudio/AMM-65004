@@ -1,0 +1,51 @@
+body{background: linear-gradient(#ffecb3, #ccffdd); 
+     font-family: "MS Sans Serif", Geneva, sans-serif};
+
+h1{font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size: 180%;}
+h2{font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size: 150%;}
+h3{font-family: "Trebuchet MS", Helvetica, sans-serif;
+   font-size: 130% ;}
+
+a:hover {
+    background-color:  #ffffff;
+}
+a:visited, a:link {
+    color: #660066;
+    text-decoration: none;
+}
+
+#formVend {
+    width: 20em;
+}
+
+label::after, label::before {
+content: '\A';
+white-space: pre-wrap;
+}
+label{
+    font-weight: bold;
+}
+
+#tab{
+    background-color: #fff2cc;
+    border-collapse: collapse;
+}
+table, th, td {
+    border:  solid #ffffff 0.2em;;
+}
+
+th{
+    font-weight: lighter;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+tr:nth-child(even) {
+    background-color: #e6ffee;
+}
+
+img{
+    height: 9em;
+    width: 9em;
+}
