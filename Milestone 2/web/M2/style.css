@@ -16,9 +16,6 @@ a:visited, a:link {
     text-decoration: none;
 }
 
-#formVend {
-    width: 20em;
-}
 
 label::after, label::before {
 content: '\A';
@@ -27,25 +24,32 @@ white-space: pre-wrap;
 label{
     font-weight: bold;
 }
-
 #tab{
     background-color: #fff2cc;
     border-collapse: collapse;
+   
+}
+table{
+    text-align: center;
+    width: 60%;
+    height: 75%;
 }
 table, th, td {
     border:  solid #ffffff 0.2em;;
 }
-
 th{
     font-weight: lighter;
     font-family: "Lucida Console", Monaco, monospace;
 }
-
 tr:nth-child(even) {
     background-color: #e6ffee;
 }
-
 img{
     height: 9em;
     width: 9em;
+}
+
+
+form {
+    width: 20em;
 }
