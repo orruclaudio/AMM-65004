@@ -13,38 +13,51 @@ and open the template in the editor.
         <meta name="description" content="Aggiungi oggetti al sito BonsaiWorld">
     </head>
     <body>
-        <nav>
-            <ul>
-                <li><a href="descrizione.html">Home</a></li>
-                <li> <a href="login.html">Effettua il Login</a></li>
-            </ul>
-         </nav>
-         <form method="get" id="formVend">
-            <div>
-            <label for="nome">None Oggetto</label>
-            <input type="text" name="nome"
-                   id="nome"/>
+        <div class="pagina">
+            <div class="header">
+                BonsaiWorld
             </div>
-            <div>
-            <label for="url">Immagine Oggetto</label>
-            <input type="url" name="urlimg"
-                   id="url"/>
-            <br>
-            <label for="descr" id="labelDescr">Descrizione Oggetto</label>
-            <textarea rows="3" cols="30"
-               name="descrizione" id="descr">
-            </textarea>
+            <nav class="side1">
+                <ul>
+                    <li><a href="descrizione.html">Home</a></li>
+                    <li> <a href="login.html">Effettua il Login</a></li>
+                </ul>
+            </nav>
+            <div class="side2">
+                <p>Sito creato in collaborazione con w3Schools.com e HTML.it</p>
             </div>
-            <br>
-            <div>
-            <label for="prezzo">Prezzo Oggetto</label>
-            <input type="number" name="prezzoitem"
-                   id="prezzo"/>
-            <label for="quant">Quantità da Vendere</label>
-            <input type="number" name="nOgg"
-                   id="quant"/>
+            <div class="content">
+                <form method="get" id="formVend">
+                   <div>
+                        <label for="nome">Nome Oggetto</label>
+                        <input type="text" name="nome"
+                               id="nome"/>
+                    </div>
+                    <div>
+                        <label for="url">Immagine Oggetto</label>
+                        <input type="url" name="urlimg"
+                               id="url"/>
+                        <br>
+                        <label for="descr" id="labelDescr">Descrizione Oggetto</label>
+                        <textarea rows="3" cols="30"
+                           name="descrizione" id="descr">
+                        </textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="prezzo">Prezzo Oggetto</label>
+                        <input type="number" name="prezzoitem"
+                               id="prezzo"/>
+                        <label for="quant">Quantità da Vendere</label>
+                        <input type="number" name="nOgg"
+                               id="quant"/>
+                    </div>
+                    <button type="submit">Invia</button>
+                </form>
             </div>
-            <button type="submit">Invia</button>
-        </form>
+            <div class="footer">
+                Copyright BonsaiWorld tutti i diritti sono immaginari.
+            </div>
+        </div>
     </body>
 </html>
